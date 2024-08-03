@@ -1,0 +1,230 @@
+.title1 {
+  color: red;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+.wraper {
+  display: flex;
+
+  gap: 20px;
+}
+.container {
+  background-color: red;
+  padding: 25px;
+  border-radius: 20px;
+}
+.user {
+  border-radius: 20px;
+  height: 50px;
+  width: 100%;
+}
+.user::placeholder {
+  padding: 20px;
+  height: 25px;
+  color: aqua;
+  font-weight: bold;
+  font-style: italic;
+}
+.user:focus {
+  outline: none;
+}
+
+.user {
+  border: none;
+}
+.margin {
+  margin-top: 30px;
+  position: relative;
+}
+.eye {
+  position: absolute;
+  bottom: 12px;
+  font-size: 25px;
+  right: 10px;
+}
+.btnL {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  width: 100%;
+}
+.error-text {
+  color: rebeccapurple;
+}
+.newAcc {
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* ! */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: none;
+}
+.overlay.active {
+  display: block;
+}
+.closeIcon {
+  font-size: 35px;
+}
+.close {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.mainWraper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  width: 100%;
+}
+.formEl {
+  background-color: brown;
+  padding: 20px;
+  border-radius: 20px;
+}
+.name {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.name::placeholder {
+  font-size: 20px;
+  color: red;
+  padding: 15px;
+}
+.name:focus {
+  outline: none;
+}
+.Rpassw,
+.Rpassw2,
+.plan,
+.phone {
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+
+  margin-left: 10px;
+}
+.Rpassw:focus,
+.Rpassw2:focus,
+.phone:focus {
+  outline: none;
+}
+.Rpassw::placeholder,
+.phone::placeholder {
+  font-size: 20px;
+  color: rgb(26, 255, 0);
+  padding: 15px;
+}
+.Rpassw2::placeholder {
+  font-size: 15px;
+  color: gold;
+  padding: 15px;
+}
+.plan:focus {
+  outline: none;
+}
+.phone {
+  width: 100%;
+}
+select option {
+  color: red;
+}
+.some {
+  font-size: 28px;
+  color: white;
+}
+.justify {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.check {
+  font-size: 30px;
+  color: black;
+}
+.btnRegister {
+  padding: 15px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: white;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.inline {
+  display: flex;
+}
+.Rpassw2,
+.Rpassw {
+  width: 100%;
+}
+.err {
+  color: white;
+  text-align: center;
+
+}
+.marginBtn{
+  margin-bottom: 20px;
+}
+.justify1{
+  text-align: center;
+}
+
+/*  */
+.position{
+  position: relative;
+}
+.show{
+  position: absolute;
+  bottom: 9px;
+  right: 10px;
+  font-size: 20px;
+}

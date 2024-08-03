@@ -1,0 +1,119 @@
+.arrow {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  cursor: pointer;
+}
+#arrow-left {
+  left: 30px;
+}
+#arrow-right {
+  right: 30px;
+}
+.slider-wrapper {
+  position: relative;
+}
+.section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.image-el {
+  width: 100%;
+  height: 670px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title-h2 {
+  font-size: 40px;
+  color: greenyellow;
+  text-align: center;
+  font-weight: bolder;
+}
+.price-h3 {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+}
+.dots-parent {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dot-child {
+  width: 14px;
+  height: 14px;
+  background-color: rgb(46, 244, 15);
+  border-radius: 50px;
+  margin: 8px;
+  cursor: pointer;
+}
+.dot-child:hover {
+  background-color: aqua;
+}
+/* ?footer */
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-box-1 {
+  width: 30%;
+}
+.footer-h2 {
+  font-size: 35px;
+}
+.footer-p {
+  font-size: 20px;
+}
+.size {
+  font-size: 35px;
+  margin-top: 15px;
+}
+.fc {
+  color: blue;
+}
+.fc:hover {
+  color: green;
+}
+.in {
+  color: red;
+}
+.in:hover {
+  color: yellow;
+}
+.li {
+  color: aqua;
+}
+.li:hover {
+  color: chocolate;
+}
+.footer-box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  margin-left: 10px;
+  font-size: 20px;
+  color: wheat;
+}

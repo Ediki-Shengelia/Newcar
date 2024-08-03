@@ -1,0 +1,58 @@
+.active {
+  display: none;
+}
+.StyleImage {
+  width: 100%;
+}
+.StyleImage {
+  box-shadow: blueviolet 5px 5px 10px;
+}
+.user-ul-list li {
+  padding: 25px;
+}
+
+.h2 {
+  text-shadow: red 5px 5px 10px;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+}
+.second-section {
+  width: 90%;
+  margin: 0 auto;
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carsFilter {
+  background-color: rgb(43, 255, 0);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+.carsFilter:focus {
+  outline: none;
+}
+.title {
+  color: rgb(255, 0, 183);
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.Styletitle {
+  color: red;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.user-ul-list li{
+    border: 3px solid black;
+    margin-top: 12px;
+    box-shadow: red 5px 5px 10px;
+}

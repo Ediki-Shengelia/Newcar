@@ -1,0 +1,58 @@
+.accordion-container {
+  max-width: 650px;
+  width: 100%;
+}
+.acc-block {
+  border: 3px solid black;
+  margin-top: 25px;
+  padding: 15px;
+  height: auto;
+  background-color: white;
+  box-shadow: brown 5px 5px 10px;
+}
+.acc-title {
+  position: relative;
+}
+.acc-descr {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 2s;
+}
+
+.acc-block.acc .acc-descr {
+  height: 100px; /* Adjust to the desired expanded height */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.acc-title::before {
+  content: "\005e";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.acc-block.acc .acc-title::before {
+  content: "\00a4";
+}
+.moto {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+}
+.acc-title {
+  color: red;
+  font-size: 25px;
+}
+.third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cadetblue;
+}
+.flex{
+
+  display: flex;
+  justify-content: center;
+}

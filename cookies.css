@@ -1,0 +1,61 @@
+.submitButton {
+  border-radius: 25px;
+  background-color: aqua;
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+}
+.inputC {
+  background-color: red;
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  height: 40px;
+}
+.inputC:focus {
+  outline: none;
+}
+
+.cookies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.phoneH2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: wheat;
+  text-align: center;
+}
+/* cookies notification */
+.cookie-notification {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 150px;
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+}
+.cookie-notification p {
+  font-size: 30px;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+.cookie-notification button {
+  background-color: aquamarine;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cookie-notification div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
