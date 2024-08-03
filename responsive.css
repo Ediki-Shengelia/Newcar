@@ -43,20 +43,29 @@
   .arrow {
     font-size: 25px;
   }
-
+  .cookie-notification {
+    height: 100%;
+    width: 100%;
+  }
+  .cookie-notification div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .Styletitle {
     font-size: 18px;
   }
   .moto {
     height: auto;
   }
-  .footer-h2{
+  .footer-h2 {
     font-size: 22px;
   }
   .footer-p {
     font-size: 15px;
   }
-  .size{
+  .size {
     font-size: 22px;
   }
 }
