@@ -10,5 +10,7 @@ accordions();
 import { fncCookies } from "./cookies.js";
 fncCookies();
 
-// import { notification } from "./cookiesNotification.js";
-// notification();
+import { notification } from "./cookiesNotification.js";
+notification();
+
+

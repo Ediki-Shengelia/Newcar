@@ -14,10 +14,36 @@
     <link rel="stylesheet" href="filter.css" />
     <link rel="stylesheet" href="accordion.css" />
     <link rel="stylesheet" href="cookies.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="dropdown.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-    <section class="section">
+    <!--  -->
+    <header class="header-bg">
+      <div class="header-container">
+        <div class="header">
+          <img class="logo" src="img/cars.png" alt="" />
+          <nav class="navigation" id="navBar">
+            <ul class="nav-ul">
+              <li>
+                <div class="dropdown">
+                  <span class="menu">Transports</span>
+                  <div class="dropdown-content">
+                    <a href="#first">Main cars</a>
+                    <a href="#second">Cars</a>
+                    <a href="#third">Motorcycles</a>
+                  </div>
+                </div>
+              </li>
+              <li><a class="color" href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--  -->
+    <section class="section" id="first">
       <div class="slider-wrapper">
         <i class="fa-regular fa-circle-right arrow" id="arrow-right"></i>
         <i class="fa-regular fa-circle-left arrow" id="arrow-left"></i>
@@ -25,7 +51,7 @@
       </div>
     </section>
 
-    <section class="second-section">
+    <section class="second-section" id="second">
       <div class="filter-container">
         <h2 class="h2">Cars Filter</h2>
         <input
@@ -47,7 +73,7 @@
       </div>
     </div>
 
-    <section class="third-section">
+    <section class="third-section" id="third">
       <div class="accordion-container">
         <div class="acc-block">
           <div class="flex">
@@ -164,6 +190,5 @@
     </footer>
     <script src="./node_modules/js-cookie/dist/js.cookie.min.js"></script>
     <script type="module" src="script2.js"></script>
-    <script src="cookiesNotification.js"></script>
   </body>
 </html>
